@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5E76BF;
+    border-bottom: 5px solid black;
+    padding: 8px 10px;
+    height: 70px;
+}
+
+h1 {
+    display: inline-flex;
+    color: #fff;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+
+#skills:hover {
+    color: #16203d;
+}
+
+#logo {
+    display: inline-block;
+    background-color: #293C73;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #16203d;
+    margin: 0px;
+
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+#logo:hover {
+    background-color: #DCE4F2;
+    color: #16203d;
+}
+
+#projects:hover {
+    color: #16203d;
+}
+
+#about:hover {
+    color: #16203d;
+}
+
+#contacts:hover {
+    color: #16203d;
+}
+
+nav {
+    text-align: right;
+
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+a::before {
+    content: "";
+    background-color: #293C73;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #293C73;
+    box-shadow: 5px 5px 10px #16203d;
+    border-radius: 10px;
+    padding: 15px 18px;
+    margin-right: 0;
+    top: 12px;
+
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+#button:hover {
+    background-color: #DCE4F2;
+    color: #16203d;
+}
